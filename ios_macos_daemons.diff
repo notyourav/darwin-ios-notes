@@ -1,0 +1,399 @@
+--- libexec_ios.txt	2020-10-17 17:13:13.000000000 -0700
++++ libexec_mac.txt	2020-10-17 17:06:01.000000000 -0700
+@@ -1,225 +1,263 @@
+-BackupAgent
+-BackupAgent2
+-CrashHousekeeping
++AdvancedCommandsMigrator
++AirPlayXPCHelper
++AppSandbox
++AppleQEMUGuestAgent
++ApplicationFirewall
++AssetCache
++AssetCacheAgent
++CSCSupportd
++DataDetectorsLocalSources
+ DataDetectorsSourceAccess
+-FSTaskScheduler
+-FinishRestoreFromBackup
++DeveloperTools
++DumpPanic
++FDERecoveryAgent
++FirmwareUpdateLauncher
+ IOAccelMemoryInfoCollector
+-IOMFB_bics_daemon
+-MSUEarlyBootTask
+-MobileGestaltHelper
+-MobileStorageMounter
+-NANDTaskScheduler
+-OTATaskingAgent
+-PowerUIAgent
+-PreboardService
+-ProxiedCrashCopier
+-PurpleReverseProxy
++InternetSharing
++KeychainMigrator
++MiniTerm.app
++NVMeAgent
++PerfPowerServices
++PerfPowerServicesExtended
++PlistBuddy
+ ReportMemoryException
+-SafariCloudHistoryPushAgent
+-SensorKitALSHelper
++SidecarDisplayAgent
+ SidecarRelay
+-SyncAgent
+-System/
++SmartCardServices
++System
++TouchBarServer
++USBAgent
+ UserEventAgent
+-addressbooksyncd
+-adid
++WiFiVelocityAgent
+ adprivacyd
+ adservicesd
+-afcd
+-airtunesd
++airportd
+ amfid
+-apt/
+-asd
+-atc
+-atwakeup
+-backboardd
+-bigram
++amsdstat
++apache2
++apfsd
++applessdstatistics
++assessmentagent
++atrun
++attach_automation_image
++audinstaller
++authopen
++autofsd
++automation_trampoline
++automountd
++avconferenced
++biokitaggdd
+ biometrickitd
++bootinstalld
+ bootpd
+-bulletindistributord
++brtool_legacy
++bspowerassertiontool
+ captiveagent
+ cc_fips_test
+-checkerboardd
+-checkpointd
+-cloudpaird
+-code
+-com.apple.automation.defaultslockdownserviced
+-companion_proxy
++checkLocalKDC
++chkpasswd
++cloudconfigurationd
++colorsync.displayservices
++colorsyncd
++comsat
+ configd
++configureLocalKDC
++corebrightnessd
+ corebrightnessdiag
+ corecaptured
+ coredatad
+ coreduetd
+-coreidvd
+-coreutils/
+-crash_mover
+-cydia/
++corestoraged
++corestoragehelperd
++create_automation_image_overlay
++cups
+ dasd
+ datastored
+-deferredmediad
+-demod
+-demod_helper
+ dhcp6d
+ diagnosticd
+-diagnosticextensionsd
++dirhelper
++diskarbitrationd
++diskmanagementd
++diskmanagementstartup
++displaypolicyd
+ dmd
+-dpkg/
++dp2hdmiupdater
++dpaudiothru
++dpd
+ dprivacyd
+-dtrace/
+-duetexpertd
+-eventkitsyncd
+-fdrhelper
++dspluginhelperd
++dtrace
++efi-dump-logs
++efiupdater
++emlog.pl
++endpointsecurityd
++eoshostd
++fax
++feedback
++femail
++findmydevice-user-agent
+ findmydeviced
+-finish_demo_restore
+-firmware.sh
++firmwarecheckers
++firmwaresyncd
+ fmfd
+-fmflocatord
+-frcode
+-fseventsd
+ ftp-proxy
+-fusiond
+ gamecontrollerd
+-gamed
+-gpg-check-pattern
+-gpg-preset-passphrase
+-gpg-protect-tool
+-gpg-wks-client
+-gpsd
+-handwritingd
+-hangreporter
+-hangtracerd
+-heartbeatd
+-hostapd
+-idamd
+-init_data_protection@
++getPPDVersion
++getty
++gkreport
++hidd
++ifcstart
+ init_featureflags
+-installd
++installer-core
+ ioupsd
++ippusbd
++java_home
++kcproxy
++kdumpd
++kextd
+ keybagd
++keyboardservicesd
++knowledge-agent
++kuncd
+ languageassetd
+-launchd_cache_loader
+-ldid
++locate.bigram
++locate.code
++locate.concatdb
++locate.mklocatedb
++locate.updatedb
+ locationd
+-lockdownd
+ logd
++loginitemregisterd
++logkextloadsd
+ lsd
+-lskdd
+-lskdmsed
+-magicswitchd
+-mc_mobile_tunnel
+-mdmd
+-mdmuserd
++makewhatis
++makewhatis.local
++mcxalr
++mdmclient
+ metrickitd
+ microstackshot
+-minionupdater
+-misagent
+-misd
+-mmaintenanced
+-mobile_assertion_agent
+-mobile_diagnostics_relay
+-mobile_house_arrest
+-mobile_installation_proxy
+-mobile_obliterator
+-mobile_storage_proxy
++migrateLocalKDC
+ mobileactivationd
+ mobileassetd
+-mtmergeprops
+-nanomediaremotelinkagent
+-nanoregistryd
+-nanoregistrylaunchd
++morphunassetsupdaterd
++mount_url
++msutil
++multiversed
++natpmpd
+ neagent
+-nearbyd
+ nehelper
+ nesessionmanager
++netbootdisk
+ networkserviceproxy
+ nfcd
+ nfrestore_service
+ nlcd
+-notification_proxy
+-nptocompaniond
+ nsurlsessiond
+ nsurlstoraged
+-online-auth-agent
+-otpaird
+-p11-kit/
+-passcodenagd
+-pcapd
++ntalkd
++od_user_homes
++odproxyd
++opendirectoryd
++osaapplet
++otherbsd
++path_helper
++pboard
+ pcsstatus
+-peakpowermanagerd
+-perfdiagsselfenabled
++periodic-wrapper
+ pfd
+-pipelined
+ pkd
+ pkreporter
++postfix
+ prng_seedctl
+ proactiveeventtrackerd
+-profiled
+-ptpcamerad
+-ptpd
++productutil
+ rapportd
+-relatived
++recoverylogd
+ remindd
+ remotectl
+ replayd
+-resourcegrabberd
++rootless-init
+ routined
++rpc.rquotad
++rpcsvchost
+ rtcreportingd
+ runningboardd
+-safarifetcherd
+-scdaemon
+-screenshotsyncd
++sandboxd
++scsid
++sdfwupdater
+ searchpartyd
++searchpartyuseragent
++secd
++secinitd
++security-checksystem
+ security-sysdiagnose
+-securityd
++security_authtrampoline
++securityd_service
+ securityuploadd
+ seld
+-sensorkitd
+-seputil
+-seserviced
+ sftp-server
+ sharingd
+ signpost_reporter
+ silhouette
+ siriknowledged
++slapconfig-keygen
++slapd
++smb-migrate-preferences
++smb-sync-preferences
+ smcDiagnose
+-splashboardd
+-springboardservicesrelay
++smcupdater
++smd
++snmpd
++spindump_agent
++ssdupdater
+ ssh-keysign
+ ssh-pkcs11-helper
+-ssh-sk-helper
+ sshd-keygen-wrapper
+-streaming_zip_conduit
++startupdiskhelper
++studentd
+ swcd
+ symptomsd
+-symptomsd-helper
+ sysdiagnose_helper
+-sysstatuscheck
++sysmond
++syspolicyd
++systemstats_boot
+ tailspind
+-terminusd
++taskgated
++taskgated-helper
+ teslad
+-thermalmonitord
++testmanagerd
++tftpd
++thermald
+ timed
+-tipsd
+-topicsmap.db
+-transitd
+ transparencyd
+-triald
+ trustd
+-tursd
+ tzd
+ tzinit
+ tzlinkd
++ucupdate
++unbound
++undoServerAppDNSPrefs
++upsshutdown
++usbcupdater
++usbd
++usermanagerhelper
++vbiosupdater
+ videosubscriptionsd
+ vndevice
+-wapic
++warmd
++warmd_agent
+ watchdogd
+-wcd
+-webbookmarksd
+-webinspectord
++wfs
+ wifiFirmwareLoader
+-wifianalyticsd
+ wifip2pd
+ wifivelocityd
++wps
++wspd
++x11-select
++xartstorageremoted
++xpchelper
+ xpcproxy
+ xpcroleaccountd
++xscertd
++xscertd-helper
++xssendevent
