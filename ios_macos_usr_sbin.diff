@@ -1,0 +1,279 @@
+--- sbin_ios.txt	2020-10-17 17:46:28.000000000 -0700
++++ sbin_mac.txt	2020-10-17 17:45:55.000000000 -0700
+@@ -1,84 +1,232 @@
+-BTAvrcp
+-BTAvrcp.sbin
+-BTLEServer
+-BTLEServer.sbin
+-BTMap
+-BTMap.sbin
+-BTPbap
+-BTPbap.sbin
+-BlueTool
+-BlueTool.sbin
+-WiFiNetworkStoreModel.momd
++AppleFileServer
++BootCacheControl
++DevToolsSecurity
++DirectoryService
++KernelEventAgent
++PasswordService
+ WirelessRadioManagerd
+-WirelessRadioManagerd.sbin
+-absd
+-absd.sbin
++ab
+ ac
+ accton
+-addNetworkInterface
+-addNetworkInterface.sbin
+-addgnupghome
+-applecamerad
+-applygnupgdefaults
++amt
++apachectl
++appsleepd
++arp
+ aslmanager
+-aslmanager.sbin
++asr
++audit
++auditd
++auditreduce
++authserver
++automount
++avbdeviced
++bless
++bluetoothaudiod
+ bluetoothd
+-bluetoothd.sbin
++bnepd
+ cfprefsd
+-cfprefsd.sbin
++chat
++checkgid
+ chown
+ chroot
+ ckksctl
++coreaudiod
++createhomedir
++cron
++cupsaccept
++cupsctl
++cupsd
++cupsdisable
++cupsenable
++cupsfilter
++cupsreject
++cvadmin
++cvdb
++cvdbset
++cvfsck
++cvfsdb
++cvfsid
++cvgather
++cvlabel
++cvmkfs
++cvupdatefs
++cvversions
++dbmmanage
++ddns-confgen
+ dev_mkdb
++disktool
++diskutil
+ distnoted
+-distnoted.sbin
++dnctl
++dot_clean
++dsconfigad
++dsconfigldap
++dseditgroup
++dsenableroot
++dtrace
+ edquota
+-fairplayd.H2
++envvars
++envvars-std
++fcgistarter
+ fdisk
+ filecoordinationd
+-filecoordinationd.sbin
++firmwarepasswd
++gpt
++graphicssession
++gssd
+ hdik
++htcacheclean
++htdbm
++htdigest
++htpasswd
++httpd
++httpd-wrapper
++httxt2dbm
++installer
++ioalloccount
++ioclasscount
+ ioreg
+-ioreg.sbin
+ iostat
+ ipconfig
+-ipconfig.sbin
++kadmin
++kadmin.local
++kcditto
++kdcsetup
++kextcache
++kextfind
++kextlibs
++kextstat
++klist_cdhashes
++krbservicesetup
++ktutil
++languagesetup
++localemanager
++logresolve
++lpadmin
++lpc
++lpinfo
++lpmove
++lsof
+ mDNSResponder
+-mDNSResponder.sbin
+ mDNSResponderHelper
+-mDNSResponderHelper.sbin
+-mediaserverd
+-mediaserverd.sbin
++mkextunpack
+ mkfile
+-nologin
++mkpassdb
++mtree
++ndp
++netbiosd
++netstat
++networksetup
++newsyslog
++nfs4mapid
++nlcontrol
+ notifyd
+-notifyd.sbin
+ nvram
+-nvram.sbin
++ocspd
+ otctl
++pdisk
++periodic
++php-fpm
++pkgutil
++postalias
++postcat
++postconf
++postdrop
++postfix
++postkick
++postlock
++postlog
++postmap
++postmulti
++postqueue
++postsuper
+ pppd
+-pppd.sbin
++praudit
++purge
+ pwd_mkdb
++quotaoff
+ quotaon
+ racoon
+-racoon.sbin
+-reboot
++rarpd
++repairHomePermissions
+ repquota
++rotatelogs
++rpc.lockd
++rpc.statd
++rpcbind
++rpcinfo
+ rtadvd
+-rtadvd.sbin
++rtsold
++sa
++sc_auth
++screencapture
++scselect
+ scutil
+-scutil.sbin
++securityd
++sendmail
++serverinfo
++setkey
++setquota
++sharing
++skywalkctl
++slapacl
++slapadd
++slapauth
++slapcat
++slapconfig
++slapdn
++slapindex
++slappasswd
++slapschema
++slaptest
++smbd
++smbdiagnose
++sncfginstall
++sncfgquery
++sncfgremove
++sncfgtemplate
++sncfgvalidate
++sndiskmove
++snmpd
++snmptrapd
++softwareupdate
++spctl
+ spindump
+-spindump.sbin
++spray
+ sshd
+-startupfiletool
++sso_util
++sysadminctl
+ sysctl
+ syslogd
+-syslogd.sbin
++system_profiler
++systemkeychain
++systemsetup
++systemsoundserverd
++systemstats
++taskpolicy
++tcpdump
++tpctl
++traceroute
++traceroute6
++tsig-keygen
++uasysdiagnose
++universalaccessd
++unsetpassword
++usernoted
++uuchk
++uucico
++uuconv
++uusched
++uuxqt
+ vifs
+ vipw
++visudo
++vpnd
+ vsdbutil
+-wifid
+-wifid.sbin
++weakpass_edit
++wfsctl
++xartutil
++xsanctl
++xscertadmin
+ zdump
+ zic
